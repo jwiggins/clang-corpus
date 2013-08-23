@@ -1,5 +1,5 @@
 /*****************************************************
- * TetrahedralMesh.h
+ * tetrahedral_mesh.h
  * 
  * A tetrahedral mesh volume renderer
  *
