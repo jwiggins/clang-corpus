@@ -15,5 +15,5 @@ setup(name='clang_corpus',
       url='https://github.com/jwiggins/clang_corpus',
       packages=setuptools.find_packages(),
       include_package_data=True,
-      package_data={'clang_corpus.data': ['*.h', 'cpp/*']},
+      package_data={'clang_corpus': ['*.h', 'cpp/*']},
       )
