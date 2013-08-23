@@ -1,0 +1,12 @@
+*.pyc
+*~
+*#
+*egg-info
+*.bak
+*.new
+*.md5
+*.old
+build
+dist
+*.swp
+.coverage
