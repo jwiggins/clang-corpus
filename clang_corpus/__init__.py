@@ -1,5 +1,5 @@
 from os import listdir
-from os.path import abspath, isfile, join, splitext
+from os.path import abspath, isfile, join, split, splitext
 
 # C, C++, Obj-C, & Obj-C++
 SOURCE_EXTENSIONS = ('.h', '.hh', '.hpp', '.c', '.cpp', '.cxx', '.m', '.mm')
@@ -14,6 +14,10 @@ class SourceFile(object):
     @property
     def path(self):
         return self._path
+
+    @property
+    def include_paths(self):
+        return [split(self._path)[0]]
 
     @property
     def bytes(self):
