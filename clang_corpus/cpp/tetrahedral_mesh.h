@@ -125,3 +125,5 @@ private:
     // labels for adjacency graph edges
     enum { NOT_VISITED, INBOUND, OUTBOUND, NONE };
 };
+
+#endif
